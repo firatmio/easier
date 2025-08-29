@@ -7,7 +7,6 @@ except ImportError as e:
     raise ImportError(e)
 
 
-# Özel hata sınıfları
 class LoginError(Exception):
     pass
 
