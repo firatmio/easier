@@ -23,7 +23,7 @@ class FirestoreDatabase:
             self.app = firebase_admin.initialize_app(self.cred)
         self.db = firestore.client()
 
-    def set_data(self, collection: str, doc_id: str, data: dict):
+    def set(self, collection: str, doc_id: str, data: dict):
         """
         Set data in Firestore for a specific document.
         """
@@ -33,7 +33,7 @@ class FirestoreDatabase:
         except Exception as e:
             raise FirestoreError(f"Failed to set Firestore data at '{collection}/{doc_id}'") from e
 
-    def get_data(self, collection: str, doc_id: str) -> dict:
+    def get(self, collection: str, doc_id: str) -> dict:
         """
         Get data from Firestore for a specific document.
         """
