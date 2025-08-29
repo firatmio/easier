@@ -71,12 +71,16 @@ from easier_py import EasierFirebase
 app = EasierFirebase("path/to/serviceAccountKey.json")
 db = app.realtimedb()
 
+data = {
+    'alovelace': {
+        'first': 'Ada',
+        'last': 'Lovelace',
+        'born': 1815
+    }
+}
+
 # 2. Set data for a document
-db.set('users', 'alovelace', {
-    'first': 'Ada',
-    'last': 'Lovelace',
-    'born': 1815
-})
+db.set('users', data)
 
 # 3. Get data from a document
 user_data = db.get('users', 'alovelace')
