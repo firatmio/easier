@@ -1,4 +1,4 @@
-<div align="center" style="font-size: 64px; margin-bottom: 2rem;">
+<div align="center">
 <h1>easier</h1>
 </div>
 
