@@ -1,6 +1,7 @@
 from .auth import FirebaseAuth
 from .storage import FirebaseStorage
-from .database import FirebaseDatabase
+from .realtime import FirebaseRealtimeDB
+from .firestore import FirestoreDatabase
 
 class EasierFirebase:
     """
@@ -14,7 +15,8 @@ class EasierFirebase:
     def __init__(self, credentials_path: str):
         self.auth = FirebaseAuth(credentials_path)
         self.storage = FirebaseStorage(credentials_path)
-        self.database = FirebaseDatabase(credentials_path)
+        self.realtimedb = FirebaseRealtimeDB(credentials_path)
+        self.firestore = FirestoreDatabase(credentials_path)
 
 
 __all__ = ["EasierFirebase"]
