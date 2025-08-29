@@ -34,7 +34,7 @@ Our collection of wrappers is constantly growing. Here is what we currently supp
 
 | Language | Available Modules |
 | :--- | :--- |
-| [<img src="https://cdn.jsdelivr.net/npm/@programming-languages-logos/python/python.svg" alt="Python" width="20" style="vertical-align:middle;"> **Python**](./firebase/python) | `auth`, `firestore`, `realtime`, `storage` |
+| [<img src="https://cdn.jsdelivr.net/npm/@programming-languages-logos/python/python.svg" alt="Python" width="20" style="vertical-align:middle;"> **Python**](./firebase/python) | `auth`, `firestore`, `realtimedb`, `storage` |
 | [<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.svg" alt="JavaScript" width="20" style="vertical-align:middle;"> **JavaScript**](./firebase/javascript) | `auth`, `firestore`, `realtimedb`, `storage` |
 | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="TypeScript" width="20" style="vertical-align:middle;"> **TypeScript**](./firebase/typescript) | `auth`, `firestore`, `realtimedb`, `storage` |
 
