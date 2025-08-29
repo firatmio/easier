@@ -30,6 +30,7 @@ Our collection of wrappers is constantly growing. Here is what we currently supp
 | Language | Framework | Available Modules | Status |
 | :--- | :--- | :--- | :---: |
 | **🐍 Python** | `Firebase` | `auth`, `firestore`, `realtime`, `storage` | ✅ Actively Developed |
+| **📜 JavaScript** | `Firebase` | `auth`, `firestore`, `realtimedb`, `storage` | ✅ Actively Developed |
 
 <br/>
 
