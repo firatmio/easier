@@ -1,6 +1,7 @@
-# Easier
+<div align="center" style="font-size: 64px; margin-bottom: 2rem;">
+easier
+</div>
 
-> Making powerful frameworks, intuitively simple.
 
 <div align="center">
 
@@ -9,6 +10,8 @@
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg?style=for-the-badge)](https://github.com/easier)
 
 </div>
+
+> Making powerful frameworks, intuitively simple.
 
 ---
 
